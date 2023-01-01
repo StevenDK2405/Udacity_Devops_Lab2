@@ -30,7 +30,7 @@ Use terraform to deploy resources: resource group, virtual network and a subnet 
 `az policy assignment create --name 'tagging-policy' --display-name "deny-creation-if-untagged-resources" --policy tagging-policy`
 - List the policy assignments to verify
 `az policy assignment list`
-The result in: ...
+The result in: [az_policy_list.png](https://github.com/StevenDK2405/Azure-Cloud-DevOps-Starter-Code/blob/master/C1%20-%20Azure%20Infrastructure%20Operations/project/starter_files/az-policy-list.png)
 
 3. Customize variables in vars.tf, terraform.tfvars
 - Update your resources name, the number of resources, resources location...
