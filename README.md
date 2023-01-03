@@ -291,11 +291,12 @@ In this project we use Azure Pipelines for Continuous Delivery of Flask ML App.
 
 - In Configure, select *Python to Linux Azure Webapp* -> select the deployed app -> Validate and Review
 (In my situation, i choose the option Existing Azure Pipeline YAML file)
-  ![New Pipeline2](images/edit-pipeline.png)
 
 - Now that the pipeline is configured, we can Continuously Deliver our ML Flask App, run the pipeline
 
   ![PipelineBuild](images/build-job.png)
+
+  ![PipelineDeploy](images/permission.png)
 
   ![PipelineDeploy](images/deployment-job.png)
 
@@ -310,4 +311,4 @@ To avoid incurring charges on the Azure resources created in this project, delet
 
 ## Demo
 
-[CI/CD Demo Link]()
+[CI/CD Demo Link]()uploading...
