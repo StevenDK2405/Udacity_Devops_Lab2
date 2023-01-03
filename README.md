@@ -98,7 +98,7 @@ In this project, We will build a Github repository from scratch and create a sca
 - Above step would launch a Python Virtual Environment and would run the application. Launch a new Azure Cloud shell session and test the application by running the make_prediction.sh script
 
     ```bash
-    ./make_predict_azure_app.sh
+    ./make_predictiton.sh
     ```
     ![Screenshot Prediction Local Test](images/run-predicct-local.png)
 
