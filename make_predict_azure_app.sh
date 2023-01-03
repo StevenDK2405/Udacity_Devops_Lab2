@@ -25,5 +25,5 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://sontv-flask-app.azurewebsites.net:$PORT/predict 
+     -X POST https://sontv-flask-app-test.azurewebsites.net:$PORT/predict 
      #your application name <yourappname>goes here
