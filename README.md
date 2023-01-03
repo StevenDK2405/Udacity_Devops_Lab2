@@ -1,5 +1,4 @@
-[![Actions Status](https://github.com/StevenDK2405/Udacity_Devops_Lab2
-Public/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)](https://github.com/StevenDK2405/Udacity_Devops_Lab2/actions)
+[![Actions Status](https://github.com/StevenDK2405/Udacity_Devops_Lab2/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)](https://github.com/StevenDK2405/Udacity_Devops_Lab2/actions)
 # Table of Contents
 
 - **[Overview](#Overview)**
