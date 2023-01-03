@@ -65,7 +65,7 @@ In this project, We will build a Github repository from scratch and create a sca
 
 - Once your public key is in Github, we can clone the source code to Azure Cloud Shell
  ```
- git clone git@github.com:NongHue/CICD-pipeline.git
+ git clone git@github.com:StevenDK2405/Udacity_Devops_Lab2.git
  ```
   ![Screenshot of SSH Key in Github](images/git-clone.png)
 ### Project Locally
@@ -98,7 +98,7 @@ In this project, We will build a Github repository from scratch and create a sca
 - Above step would launch a Python Virtual Environment and would run the application. Launch a new Azure Cloud shell session and test the application by running the make_prediction.sh script
 
     ```bash
-    ./make_prediction.sh
+    ./make_predict_azure_app.sh
     ```
     ![Screenshot Prediction Local Test](images/run-predicct-local.png)
 
@@ -145,7 +145,7 @@ Azure App service offers multiple ways to create a new application. In this sect
 - Deploy application into the our resource group
 
     ```bash
-    az webapp up -n sontv-flask-app -g ODL-clouddevops-220570
+    az webapp up -n sontv-flask-app -g ODL-clouddevops-221113
     ```
 
 - Our application will be deployed and available at

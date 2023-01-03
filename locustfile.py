@@ -12,7 +12,7 @@ class WebsiteTestUser(HttpUser):
         pass
     @task(1)
     def scale(self) :
-        self.client.get("http://localhost:5000")
+        self.client.get("https://sontv-flask-app.azurewebsites.net")
     @task(2)
     def predict(self):
-        self.client.post("http://localhost:5000/predict",json= {"content":"2"})
+        self.client.post("https://sontv-flask-app.azurewebsites.net/predict",json= {"content":"2"})
