@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: "cd0a64c9-8976-4c31-b550-65007fc1f72a"
+  azureServiceConnectionId: "e9084fda-63a1-4b2c-8b75-a814567dcee6"
 
   # Web app name
   webAppName: "sontv-flask-app"
